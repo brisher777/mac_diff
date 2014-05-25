@@ -7,21 +7,21 @@ DATABASE = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'mac_times.d
 
 class DBContextManager():
     """Context Manager for sqlite3 database interaction."""
-        def __init__(self, db_name):
-            self._db_name = db_name
-            self._conn = None
+    def __init__(self, db_name):
+        self._db_name = db_name
+        self._conn = None
 
-        def __enter__(self):
-            self._conn = sqlite3.connect(self._db_name)
-            self._conn.text_factory = str
-            return self._conn
+    def __enter__(self):
+        self._conn = sqlite3.connect(self._db_name)
+        self._conn.text_factory = str
+        return self._conn
 
-        def __exit__(self, type, value, traceback):
-            if type:
-                self._conn.rollback()
-                print 'Exception: {}'.format(value)
-            self._conn.commit()
-            self._conn.close()
+    def __exit__(self, type, value, traceback):
+        if type:
+            self._conn.rollback()
+            print 'Exception: {}'.format(value)
+        self._conn.commit()
+        self._conn.close()
 
 
 def main():
@@ -48,7 +48,7 @@ def main():
                     c_time = os.path.getctime(file_name)
                 except OSError as ex:
                     return 'Error {}'.format(ex.args[0])
-                cursor.execute('INSERT into files values (?,?,?,?)',
+                cursor.execute('INSERT OR IGNORE INTO files VALUES (?,?,?,?)',
                                (file_name, m_time, a_time, c_time))
 
 
