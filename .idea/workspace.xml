@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a7ed4d-5e5b-4b14-aeb8-9624c7834b77" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mac_diff.py" afterPath="$PROJECT_DIR$/mac_diff.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mac_diff.iws" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="mac_diff.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mac_diff.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="31" selection-start="657" selection-end="657" vertical-scroll-proportion="0.6895943" vertical-offset="0" max-vertical-offset="884">
+            <state line="5" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.14991182" vertical-offset="0" max-vertical-offset="867">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -276,7 +277,11 @@
       <created>1401001530648</created>
       <updated>1401001530648</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="testing VCS">
+      <created>1401001606382</created>
+      <updated>1401001606382</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -333,7 +338,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mac_diff.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="657" selection-end="657" vertical-scroll-proportion="0.6895943" vertical-offset="0" max-vertical-offset="884">
+        <state line="5" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.14991182" vertical-offset="0" max-vertical-offset="867">
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

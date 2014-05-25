@@ -3,7 +3,6 @@ import sqlite3
 
 ROOTDIR = os.path.abspath(os.sep)  # / or drive windows is installed on
 DATABASE = os.path.join(os.path.expanduser('~'), 'mac_times.db')
-TEST = 'test'
 
 class DBContextManager():
         def __init__(self, db_name):
