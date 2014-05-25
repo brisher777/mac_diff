@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a7ed4d-5e5b-4b14-aeb8-9624c7834b77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mac_times.db" afterPath="$PROJECT_DIR$/mac_times.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mac_diff.py" afterPath="$PROJECT_DIR$/mac_diff.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mac_diff.iws" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="mac_diff.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mac_diff.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="52" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.65954196" vertical-offset="540" max-vertical-offset="1260">
+            <state line="38" column="20" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.1923664" vertical-offset="540" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -323,7 +321,11 @@
       <created>1401018658945</created>
       <updated>1401018658945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added documentation and ignore statement">
+      <created>1401019778122</created>
+      <updated>1401019778122</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -364,7 +366,8 @@
     </option>
     <MESSAGE value="testing VCS" />
     <MESSAGE value="recursive walk and db creation working" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursive walk and db creation working" />
+    <MESSAGE value="added documentation and ignore statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="added documentation and ignore statement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -386,7 +389,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mac_diff.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="52" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.65954196" vertical-offset="540" max-vertical-offset="1260">
+        <state line="38" column="20" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.1923664" vertical-offset="540" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
